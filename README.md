@@ -61,6 +61,7 @@ This specific build has been adjusted to use some existing plugins, plus multipl
  - SimpleUploadAdapter
  - Font
  - ImageResize
+ - TodoList
 
 ## Documentation
 

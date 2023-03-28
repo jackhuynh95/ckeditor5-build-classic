@@ -43,6 +43,7 @@ import PendingActions from '@ckeditor/ckeditor5-core/src/pendingactions';
 import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import Font from '@ckeditor/ckeditor5-font/src/font';
+import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
 
 export default class ClassicEditor extends ClassicEditorBase { }
 
@@ -82,7 +83,8 @@ ClassicEditor.builtinPlugins = [
 	PendingActions,
 	Alignment,
 	SimpleUploadAdapter,
-	Font
+	Font,
+	TodoList
 ];
 
 // Editor configuration.
@@ -93,7 +95,7 @@ ClassicEditor.defaultConfig = {
 			'bold', 'italic', 'underline', 'strikethrough', 'subscript', 'superscript', '|',
 			'highlight', 'link', '|',
 			'blockQuote', 'alignment', '|',
-			'outdent', 'indent', 'bulletedList', 'numberedList', '|',
+			'outdent', 'indent', 'bulletedList', 'numberedList', 'todoList', '|',
 			'insertTable', 'imageUpload', 'mediaEmbed', '|',
 			'undo', 'redo'
 		]
