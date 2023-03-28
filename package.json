@@ -27,7 +27,8 @@
     "SimpleUploadAdapter",
     "IndentBlock",
     "Font",
-    "ImageResize"
+    "ImageResize",
+    "TodoList"
   ],
   "main": "./build/ckeditor.js",
   "files": [
