@@ -44,6 +44,7 @@ import Alignment from '@ckeditor/ckeditor5-alignment/src/alignment';
 import SimpleUploadAdapter from '@ckeditor/ckeditor5-upload/src/adapters/simpleuploadadapter';
 import Font from '@ckeditor/ckeditor5-font/src/font';
 import TodoList from '@ckeditor/ckeditor5-list/src/todolist';
+import Mention from '@ckeditor/ckeditor5-mention/src/mention';
 
 export default class ClassicEditor extends ClassicEditorBase { }
 
@@ -84,7 +85,8 @@ ClassicEditor.builtinPlugins = [
 	Alignment,
 	SimpleUploadAdapter,
 	Font,
-	TodoList
+	TodoList,
+	Mention
 ];
 
 // Editor configuration.
@@ -130,6 +132,15 @@ ClassicEditor.defaultConfig = {
 			'tableColumn',
 			'tableRow',
 			'mergeTableCells'
+		]
+	},
+	mention: {
+		feeds: [
+			{
+				marker: '@',
+				feed: [ '@Barney', '@Lily', '@Marry Ann', '@Marshall', '@Robin', '@Ted' ],
+				minimumCharacters: 1
+			}
 		]
 	},
 	// This value must be kept in sync with the language defined in webpack.config.js.

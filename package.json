@@ -1,6 +1,6 @@
 {
   "name": "@jackhuynh1995/ckeditor5-build-classic-plus",
-  "version": "15.0.0",
+  "version": "15.5.0",
   "description": "The classic editor build of CKEditor 5 – the best browser-based rich text editor. This specific build includes more plugins. See the README document for more information.",
   "keywords": [
     "ckeditor5-build",
@@ -28,7 +28,8 @@
     "IndentBlock",
     "Font",
     "ImageResize",
-    "TodoList"
+    "TodoList",
+    "Mention"
   ],
   "main": "./build/ckeditor.js",
   "files": [
@@ -56,6 +57,7 @@
     "@ckeditor/ckeditor5-link": "^15.0.0",
     "@ckeditor/ckeditor5-list": "^15.0.0",
     "@ckeditor/ckeditor5-media-embed": "^15.0.0",
+    "@ckeditor/ckeditor5-mention": "^15.0.0",
     "@ckeditor/ckeditor5-paragraph": "^15.0.0",
     "@ckeditor/ckeditor5-paste-from-office": "^15.0.0",
     "@ckeditor/ckeditor5-table": "^15.0.0",

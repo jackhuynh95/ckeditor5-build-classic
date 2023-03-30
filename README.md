@@ -62,6 +62,7 @@ This specific build has been adjusted to use some existing plugins, plus multipl
  - Font
  - ImageResize
  - TodoList
+ - Mention
 
 ## Documentation
 
