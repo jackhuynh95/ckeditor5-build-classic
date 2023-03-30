@@ -134,15 +134,6 @@ ClassicEditor.defaultConfig = {
 			'mergeTableCells'
 		]
 	},
-	mention: {
-		feeds: [
-			{
-				marker: '@',
-				feed: [ '@Barney', '@Lily', '@Marry Ann', '@Marshall', '@Robin', '@Ted' ],
-				minimumCharacters: 1
-			}
-		]
-	},
 	// This value must be kept in sync with the language defined in webpack.config.js.
 	language: 'en'
 };
