@@ -34,6 +34,7 @@ import Paragraph from '@ckeditor/ckeditor5-paragraph/src/paragraph';
 import PasteFromOffice from '@ckeditor/ckeditor5-paste-from-office/src/pastefromoffice';
 import Table from '@ckeditor/ckeditor5-table/src/table';
 import TableToolbar from '@ckeditor/ckeditor5-table/src/tabletoolbar';
+import CloudServices from '@ckeditor/ckeditor5-cloud-services/src/cloudservices';
 
 // Custom Plugins below.
 import Autosave from '@ckeditor/ckeditor5-autosave/src/autosave';
@@ -62,6 +63,7 @@ ClassicEditor.builtinPlugins = [
 	Code,
 	BlockQuote,
 	CKFinder,
+	CloudServices,
 	EasyImage,
 	Heading,
 	Image,
